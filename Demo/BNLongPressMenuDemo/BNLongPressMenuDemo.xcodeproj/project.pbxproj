@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA81109F174538570041DA66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA81109E174538570041DA66 /* UIKit.framework */; };
+		DA8110A1174538570041DA66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8110A0174538570041DA66 /* Foundation.framework */; };
+		DA8110A3174538570041DA66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8110A2174538570041DA66 /* CoreGraphics.framework */; };
+		DA8110A9174538570041DA66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA8110A7174538570041DA66 /* InfoPlist.strings */; };
+		DA8110AB174538570041DA66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8110AA174538570041DA66 /* main.m */; };
+		DA8110AF174538570041DA66 /* BNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8110AE174538570041DA66 /* BNAppDelegate.m */; };
+		DA8110B1174538570041DA66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110B0174538570041DA66 /* Default.png */; };
+		DA8110B3174538570041DA66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110B2174538570041DA66 /* Default@2x.png */; };
+		DA8110B5174538570041DA66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110B4174538570041DA66 /* Default-568h@2x.png */; };
+		DA8110C2174538960041DA66 /* BNLongPressMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8110C1174538960041DA66 /* BNLongPressMenu.m */; };
+		DA8110C6174538B90041DA66 /* BNDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8110C4174538B90041DA66 /* BNDemoViewController.m */; };
+		DA8110C7174538B90041DA66 /* BNDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8110C5174538B90041DA66 /* BNDemoViewController.xib */; };
+		DA8110CD17453D1A0041DA66 /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110C917453D1A0041DA66 /* menu-button.png */; };
+		DA8110CE17453D1A0041DA66 /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110CA17453D1A0041DA66 /* menu-button@2x.png */; };
+		DA8110CF17453D1A0041DA66 /* menu-item.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110CB17453D1A0041DA66 /* menu-item.png */; };
+		DA8110D017453D1A0041DA66 /* menu-item@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8110CC17453D1A0041DA66 /* menu-item@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA81109B174538570041DA66 /* BNLongPressMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BNLongPressMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA81109E174538570041DA66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA8110A0174538570041DA66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA8110A2174538570041DA66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA8110A6174538570041DA66 /* BNLongPressMenuDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BNLongPressMenuDemo-Info.plist"; sourceTree = "<group>"; };
+		DA8110A8174538570041DA66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA8110AA174538570041DA66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA8110AC174538570041DA66 /* BNLongPressMenuDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BNLongPressMenuDemo-Prefix.pch"; sourceTree = "<group>"; };
+		DA8110AD174538570041DA66 /* BNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNAppDelegate.h; sourceTree = "<group>"; };
+		DA8110AE174538570041DA66 /* BNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNAppDelegate.m; sourceTree = "<group>"; };
+		DA8110B0174538570041DA66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA8110B2174538570041DA66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA8110B4174538570041DA66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA8110C0174538960041DA66 /* BNLongPressMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNLongPressMenu.h; sourceTree = "<group>"; };
+		DA8110C1174538960041DA66 /* BNLongPressMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNLongPressMenu.m; sourceTree = "<group>"; };
+		DA8110C3174538B90041DA66 /* BNDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNDemoViewController.h; sourceTree = "<group>"; };
+		DA8110C4174538B90041DA66 /* BNDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNDemoViewController.m; sourceTree = "<group>"; };
+		DA8110C5174538B90041DA66 /* BNDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNDemoViewController.xib; sourceTree = "<group>"; };
+		DA8110C917453D1A0041DA66 /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		DA8110CA17453D1A0041DA66 /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		DA8110CB17453D1A0041DA66 /* menu-item.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item.png"; sourceTree = "<group>"; };
+		DA8110CC17453D1A0041DA66 /* menu-item@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-item@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA811098174538570041DA66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA81109F174538570041DA66 /* UIKit.framework in Frameworks */,
+				DA8110A1174538570041DA66 /* Foundation.framework in Frameworks */,
+				DA8110A3174538570041DA66 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA811092174538570041DA66 = {
+			isa = PBXGroup;
+			children = (
+				DA8110A4174538570041DA66 /* BNLongPressMenuDemo */,
+				DA81109D174538570041DA66 /* Frameworks */,
+				DA81109C174538570041DA66 /* Products */,
+				DA8110C817453D1A0041DA66 /* Resources */,
+				DA8110BF174538960041DA66 /* BNLongPressMenu */,
+			);
+			sourceTree = "<group>";
+		};
+		DA81109C174538570041DA66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA81109B174538570041DA66 /* BNLongPressMenuDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA81109D174538570041DA66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA81109E174538570041DA66 /* UIKit.framework */,
+				DA8110A0174538570041DA66 /* Foundation.framework */,
+				DA8110A2174538570041DA66 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8110A4174538570041DA66 /* BNLongPressMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DA8110AD174538570041DA66 /* BNAppDelegate.h */,
+				DA8110AE174538570041DA66 /* BNAppDelegate.m */,
+				DA8110A5174538570041DA66 /* Supporting Files */,
+				DA8110C3174538B90041DA66 /* BNDemoViewController.h */,
+				DA8110C4174538B90041DA66 /* BNDemoViewController.m */,
+				DA8110C5174538B90041DA66 /* BNDemoViewController.xib */,
+			);
+			path = BNLongPressMenuDemo;
+			sourceTree = "<group>";
+		};
+		DA8110A5174538570041DA66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8110A6174538570041DA66 /* BNLongPressMenuDemo-Info.plist */,
+				DA8110A7174538570041DA66 /* InfoPlist.strings */,
+				DA8110AA174538570041DA66 /* main.m */,
+				DA8110AC174538570041DA66 /* BNLongPressMenuDemo-Prefix.pch */,
+				DA8110B0174538570041DA66 /* Default.png */,
+				DA8110B2174538570041DA66 /* Default@2x.png */,
+				DA8110B4174538570041DA66 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA8110BF174538960041DA66 /* BNLongPressMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DA8110C0174538960041DA66 /* BNLongPressMenu.h */,
+				DA8110C1174538960041DA66 /* BNLongPressMenu.m */,
+			);
+			name = BNLongPressMenu;
+			path = ../../BNLongPressMenu;
+			sourceTree = "<group>";
+		};
+		DA8110C817453D1A0041DA66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA8110C917453D1A0041DA66 /* menu-button.png */,
+				DA8110CA17453D1A0041DA66 /* menu-button@2x.png */,
+				DA8110CB17453D1A0041DA66 /* menu-item.png */,
+				DA8110CC17453D1A0041DA66 /* menu-item@2x.png */,
+			);
+			name = Resources;
+			path = BNLongPressMenuDemo/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA81109A174538570041DA66 /* BNLongPressMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8110B8174538570041DA66 /* Build configuration list for PBXNativeTarget "BNLongPressMenuDemo" */;
+			buildPhases = (
+				DA811097174538570041DA66 /* Sources */,
+				DA811098174538570041DA66 /* Frameworks */,
+				DA811099174538570041DA66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BNLongPressMenuDemo;
+			productName = BNLongPressMenuDemo;
+			productReference = DA81109B174538570041DA66 /* BNLongPressMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA811093174538570041DA66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BN;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "camille bossoutrot";
+			};
+			buildConfigurationList = DA811096174538570041DA66 /* Build configuration list for PBXProject "BNLongPressMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA811092174538570041DA66;
+			productRefGroup = DA81109C174538570041DA66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA81109A174538570041DA66 /* BNLongPressMenuDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA811099174538570041DA66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8110A9174538570041DA66 /* InfoPlist.strings in Resources */,
+				DA8110B1174538570041DA66 /* Default.png in Resources */,
+				DA8110B3174538570041DA66 /* Default@2x.png in Resources */,
+				DA8110B5174538570041DA66 /* Default-568h@2x.png in Resources */,
+				DA8110C7174538B90041DA66 /* BNDemoViewController.xib in Resources */,
+				DA8110CD17453D1A0041DA66 /* menu-button.png in Resources */,
+				DA8110CE17453D1A0041DA66 /* menu-button@2x.png in Resources */,
+				DA8110CF17453D1A0041DA66 /* menu-item.png in Resources */,
+				DA8110D017453D1A0041DA66 /* menu-item@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA811097174538570041DA66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8110AB174538570041DA66 /* main.m in Sources */,
+				DA8110AF174538570041DA66 /* BNAppDelegate.m in Sources */,
+				DA8110C2174538960041DA66 /* BNLongPressMenu.m in Sources */,
+				DA8110C6174538B90041DA66 /* BNDemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA8110A7174538570041DA66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8110A8174538570041DA66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA8110B6174538570041DA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA8110B7174538570041DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA8110B9174538570041DA66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNLongPressMenuDemo/BNLongPressMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "BNLongPressMenuDemo/BNLongPressMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA8110BA174538570041DA66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BNLongPressMenuDemo/BNLongPressMenuDemo-Prefix.pch";
+				INFOPLIST_FILE = "BNLongPressMenuDemo/BNLongPressMenuDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA811096174538570041DA66 /* Build configuration list for PBXProject "BNLongPressMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8110B6174538570041DA66 /* Debug */,
+				DA8110B7174538570041DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8110B8174538570041DA66 /* Build configuration list for PBXNativeTarget "BNLongPressMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8110B9174538570041DA66 /* Debug */,
+				DA8110BA174538570041DA66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA811093174538570041DA66 /* Project object */;
+}
